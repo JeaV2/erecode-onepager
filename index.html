@@ -1,20 +1,123 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    <h1>Header 1</h1>
-    <h2>Header 2</h2>
-    <h3>Header 3</h3>
-    <p>
-        Paragraph text
-        <span class="light">Light text</span>
-        <span class="medium">Medium text</span>
-        <span class="large">Large text</span>
-    </p>
+    <nav>
+        <div class="navbar">
+            <div>
+                <a href="#">
+                    <h1>Erecode</h1>
+                </a>
+            </div>
+            <div class="buttons">
+                <a href="#intro" class="button">Introductie</a> |
+                <a href="#quote" class="button">Quote</a> |
+                <a href="#video" class="button">Video</a> |
+                <a href="#form" class="button">Formulier</a>
+            </div>
+        </div>
+    </nav>
+    <div id="hero">
+        <div id="intro">
+            <h1>Hi!</h1>
+            <p>
+                <span class="light">Ik ben <span class="large">Jea</span> en ik zou graag stage willen lopen!</span>
+            </p>
+        </div>
+        <div id="foto">
+            <img src="./media/fotos/selfie.jpg"
+                alt="Een foto van een meisje met lang blond haar in een slecht belichte bar, ze draagt een leren choker met spikes en een blouse met een rozen patroon er in.">
+        </div>
+        <div id="quote">
+            <p>
+                <span class="medium">"Wees niet tevreden met het lichaam dat dat je wordt opgelegd door de beperkingen
+                    van het universum. De mensheid hoeft niet zo beperkt te zijn."</span>
+            </p>
+        </div>
+    </div>
+
+
+    <div id="video">
+        <h2>Dit is mijn favoriete film, die moet je gezien hebben:</h2>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/h6DOpfJzmo0?si=4a0zfFNaz-va7CyE"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <div id="form">
+        <h2>Dit formulier verstuurt eigenlijk niks :&rpar;</h2>
+        <form>
+            <label for="bandartiest">Deze band/artiest luister ik het meest:</label>
+            <input type="text" id="bandartiest" name="bandartiest">
+
+            <label for="lunch">Dit neem ik meestal mee voor lunch:</label>
+            <select name="lunch" id="lunch">
+                <option>Zelf belegd brood</option>
+                <option>Een frisse salade</option>
+                <option>Whatever de dichtstbijzijnde supermarkt voor broodjes heeft</option>
+                <option>Sushi</option>
+            </select>
+            <input type="checkbox" id="akkoord" name="akkoord">
+            <label for="akkoord">Ik ga akkoord met deze keuzes</label>
+
+            <input type="submit" value="Verstuur mijn antwoord &rightarrow;">
+        </form>
+    </div>
+
+    <footer>
+        <div>
+            <img src="./media/fotos/logo.png"
+                alt="Het logo van Erecode. Een hand met de wijs, middel en ring vinger omhoog, en de duim en pink over de palm van de hand">
+        </div>
+        <div>
+            <div>
+                <p>
+                    <span class="light">
+                        <span class="large">Adres</span>
+                        <hr>
+                        <ul>
+                            <li>Kip straat 2</li> 
+                            <li>2011 RT</li>
+                            <li>Rotterdam</li>
+                        </ul>
+                        
+                        
+                        Rotterdam
+                    </span>
+                </p>
+                <p>
+                    <span class="light">
+                        <span class="large">Contact gegevens</span>
+                        <hr>
+                        <ul>
+                            <li>010 750 0510</li>
+                            <li>info@erecode.nl</li>
+                            <li>support@erecode.nl</li>
+                        </ul>
+                    </span>
+                </p>
+                <p>
+                    <span class="light">
+                        <span class="large">Sitemap</span>
+                        <ul></ul>
+                            <li><a href="#intro">Introductie</a></li>
+                            <li><a href="#quote">Quote</a></li>
+                            <li><a href="#video">Video</a></li>
+                            <li><a href="#form">Formulier</a></li>
+                        </ul>
+                    </span>
+                </p>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>

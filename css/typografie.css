@@ -3,29 +3,29 @@
     src: url(../media/fonts/redhattext/redhattext-variablefont-wght.ttf);
 }
 
-h1 {
+body {
     font-family: "Red Hat Text";
+}
+
+h1 {
     font-weight: 700;
     font-size: 80px;
     line-height: 100%;
 }
 
 h2 {
-    font-family: "Red Hat Text";
     font-weight: 400;
     font-size: 48px;
     line-height: 130%;
 }
 
 h3 {
-    font-family: "Red Hat Text";
     font-weight: 400;
     font-size: 32px;
     line-height: 130%;
 }
 
 p {
-    font-family: "Red Hat Text";
     .large {
         font-weight: 600;
         font-size: 20px;
