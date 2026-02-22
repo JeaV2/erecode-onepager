@@ -1,0 +1,20 @@
+:root {
+    /* Neutral colors */
+    --neutral-dark: #231F20;
+    --neutral-medium: #706D6E;
+    --neutral-light: #FFFFFF;
+
+    /* Primary colors */
+    --primary-dark: #06067A;
+    --primary-medium: #9B9BCA;
+    --primary-light: #D8D8EA;
+
+    /* Secondary colors */
+    --secondary-dark: #7B002C;
+    --secondary-medium: #E5CCD5;
+    --secondary-light: #FFF3ED;
+
+    /* Gradient */
+
+    --hero-gradient: linear-gradient(135deg, #E9F5F3, #8FCFC3CC)
+}
